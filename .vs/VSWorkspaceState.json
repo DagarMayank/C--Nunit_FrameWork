@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\AutomationTest",
+    "\\AutomationTest\\AutomationTest",
+    "\\AutomationTest\\AutomationTest\\PageSources",
+    "\\AutomationTest\\AutomationTest\\Tests"
+  ],
+  "SelectedNode": "\\AutomationTest\\AutomationTest\\Tests\\Test.cs",
+  "PreviewInSolutionExplorer": false
+}

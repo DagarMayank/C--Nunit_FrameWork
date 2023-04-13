@@ -1,0 +1,15 @@
+C:\Users\Home\Desktop\C# learning\Practice\Practice\bin\Debug\net6.0\CsharpBasic.exe
+C:\Users\Home\Desktop\C# learning\Practice\Practice\bin\Debug\net6.0\CsharpBasic.deps.json
+C:\Users\Home\Desktop\C# learning\Practice\Practice\bin\Debug\net6.0\CsharpBasic.runtimeconfig.json
+C:\Users\Home\Desktop\C# learning\Practice\Practice\bin\Debug\net6.0\CsharpBasic.dll
+C:\Users\Home\Desktop\C# learning\Practice\Practice\bin\Debug\net6.0\CsharpBasic.pdb
+C:\Users\Home\Desktop\C# learning\Practice\Practice\obj\Debug\net6.0\CsharpBasic.csproj.AssemblyReference.cache
+C:\Users\Home\Desktop\C# learning\Practice\Practice\obj\Debug\net6.0\CsharpBasic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Home\Desktop\C# learning\Practice\Practice\obj\Debug\net6.0\CsharpBasic.AssemblyInfoInputs.cache
+C:\Users\Home\Desktop\C# learning\Practice\Practice\obj\Debug\net6.0\CsharpBasic.AssemblyInfo.cs
+C:\Users\Home\Desktop\C# learning\Practice\Practice\obj\Debug\net6.0\CsharpBasic.csproj.CoreCompileInputs.cache
+C:\Users\Home\Desktop\C# learning\Practice\Practice\obj\Debug\net6.0\CsharpBasic.dll
+C:\Users\Home\Desktop\C# learning\Practice\Practice\obj\Debug\net6.0\refint\CsharpBasic.dll
+C:\Users\Home\Desktop\C# learning\Practice\Practice\obj\Debug\net6.0\CsharpBasic.pdb
+C:\Users\Home\Desktop\C# learning\Practice\Practice\obj\Debug\net6.0\CsharpBasic.genruntimeconfig.cache
+C:\Users\Home\Desktop\C# learning\Practice\Practice\obj\Debug\net6.0\ref\CsharpBasic.dll
