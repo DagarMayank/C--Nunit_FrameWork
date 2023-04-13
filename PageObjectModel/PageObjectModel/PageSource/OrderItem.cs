@@ -18,7 +18,7 @@ namespace PageObjectModel.PageSource
         [FindsBy(How = How.XPath, Using = "//span[@id='nav-cart-count']")]
         private IWebElement clickCARTIcon;
 
-        [FindsBy(How = How.XPath, Using = "//i[@class='a-icon a-icon-dropdown']")]
+        [FindsBy(How = How.Id, Using = "a-autoid-0-announce")]
         private IWebElement quanityDropDown;
 
         [FindsBy(How = How.Id, Using = "attach-sidesheet-view-cart-button-announce")]
@@ -26,19 +26,19 @@ namespace PageObjectModel.PageSource
 
         public OrderItem(IWebDriver driver)
         {
+            this.driver = driver;
             PageFactory.InitElements(driver, this);
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(15);
         }
 
-        public void addItemToCart(String var)
+        public void addItemToCart()
         {
             
             Thread.Sleep(2000);
             btnAddtoCart.Click();
-            var newWindowHandle = driver.WindowHandles[1];
-            driver.SwitchTo().Window(newWindowHandle).Close();
             Thread.Sleep(3000);
-            driver.SwitchTo().Window(var);
+            Homepage hp = new Homepage(driver);
+            hp.driver.SwitchTo().Window(driver.WindowHandles[0]);
             
         }
         public void navigateToCart()
@@ -49,10 +49,11 @@ namespace PageObjectModel.PageSource
 
         public void setQuanity(int x)
         {
+            Thread.Sleep(3000);
             quanityDropDown.Click();
             Thread.Sleep(2000);
             IWebElement quant =
-                driver.FindElement(By.XPath("//div[@id='a-popover-2']//a[@id='quantity_"+x+"']"));
+                driver.FindElement(By.XPath("//ul[@role='listbox']//a[@id='quantity_" + x+"']"));
             quant.Click();
 
         }

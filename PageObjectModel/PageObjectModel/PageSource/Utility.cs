@@ -5,10 +5,10 @@ using OpenQA.Selenium.Interactions;
 
 namespace PageObjectModel.PageSource
 {
-    public  class WaitDriver
+    public  class Utility
     {
         public IWebDriver driver;
-       public WaitDriver(IWebDriver driver) 
+       public Utility(IWebDriver driver) 
         {
             this.driver = driver;
         }
@@ -39,5 +39,15 @@ namespace PageObjectModel.PageSource
                 action.SendKeys(Keys.ArrowDown).Perform();
             }
         }
+
+        public static void scrollPageUp(int count, IWebDriver driver)
+        {
+            Actions action = new Actions(driver);
+            for (int i = 0; i < count; i++)
+            {
+                action.SendKeys(Keys.ArrowUp).Perform();
+            }
+        }
+
     }
 }

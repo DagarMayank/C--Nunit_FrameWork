@@ -53,17 +53,17 @@ namespace PageObjectModel.PageSource
         public void searchBar()
         {
              ac = new Actions(driver);
-            ac.MoveToElement(txtsearchBar).Click().SendKeys("Iphone 13" + Keys.Enter).Build().Perform();
+            ac.MoveToElement(txtsearchBar).Click().SendKeys("Iphone 12" + Keys.Enter).Build().Perform();
         }
 
-        public String viewSearchedItem()
+        public void viewSearchedItem()
         {
             String currentWindow = driver.CurrentWindowHandle.ToString();
             //   ac.KeyDown(Keys.Control).Click(lnKOfAllItem[0]).KeyUp(Keys.Control).Build().Perform();
             lnKOfAllItem[0].Click();
             var newWindowHandle = driver.WindowHandles[1];
             driver.SwitchTo().Window(newWindowHandle);
-            return currentWindow;
+            
         }
        
 

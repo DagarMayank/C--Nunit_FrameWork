@@ -24,7 +24,8 @@ namespace PageObjectModel.TestClass
             
             //Navigated to Homepage
             Homepage hp = new Homepage(driver);
-            Assert.IsTrue(hp.IsIconAvatorVisible(),"User is Successfully logined to the Application");
+         /***Login Functionality is Commented Out because of Restriction from Amazon **/
+            //   Assert.IsTrue(hp.IsIconAvatorVisible(),"User is Successfully logined to the Application");
             hp.searchBar();
             Thread.Sleep(2000);
              hp.viewSearchedItem(); 
@@ -33,13 +34,14 @@ namespace PageObjectModel.TestClass
         public void verify_OrderTheAddToCartItem()
         {
             Homepage hp = new Homepage(driver);
-            Assert.IsTrue(hp.IsIconAvatorVisible(), "User is Successfully logined to the Application");
             hp.searchBar();
             Thread.Sleep(2000);
-            String currentWindow = hp.viewSearchedItem();
+            hp.viewSearchedItem();
             OrderItem orderItem = new OrderItem(driver);
-            orderItem.addItemToCart("currentWindow");
-          //  orderItem.navigateToCart();
+            orderItem.addItemToCart();
+            orderItem= new OrderItem(driver);
+            ActionScrollPage.scrollPageUp(8, driver);
+            orderItem.navigateToCart();
             orderItem.setQuanity(2);
         }
         /**
