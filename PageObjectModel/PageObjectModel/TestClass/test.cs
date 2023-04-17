@@ -30,17 +30,20 @@ namespace PageObjectModel.TestClass
             Thread.Sleep(2000);
              hp.viewSearchedItem(); 
         }
-        [Test]
+        [Test,Order(0),Category("QauntityOfItem")]
+        /**
+         * Adding the Item to cart and Setting up the Quanity of item 
+         */
         public void verify_OrderTheAddToCartItem()
         {
             Homepage hp = new Homepage(driver);
             hp.searchBar();
-            Thread.Sleep(2000);
             hp.viewSearchedItem();
             OrderItem orderItem = new OrderItem(driver);
             orderItem.addItemToCart();
             orderItem= new OrderItem(driver);
-            ActionScrollPage.scrollPageUp(8, driver);
+            ActionScrollPage actionScrollPage = new ActionScrollPage(driver);
+            actionScrollPage.scrollPageUp(8);
             orderItem.navigateToCart();
             orderItem.setQuanity(2);
         }
@@ -70,7 +73,6 @@ namespace PageObjectModel.TestClass
             Homepage hp = new Homepage(driver);
             hp.hoverOnLanguageIcon();
             hp.chooseLanguageFromHoveredIcon("हिन्दी");
-            Thread.Sleep(2000);
             hp.hoverOnLanguageIcon();
             hp.chooseLanguageFromHoveredIcon("English");
 

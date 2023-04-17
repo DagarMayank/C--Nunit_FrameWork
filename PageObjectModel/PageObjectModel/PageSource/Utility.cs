@@ -2,47 +2,50 @@
 using OpenQA.Selenium;
 using SeleniumExtras.WaitHelpers;
 using OpenQA.Selenium.Interactions;
+using SeleniumExtras.PageObjects;
 
 namespace PageObjectModel.PageSource
 {
     public  class Utility
     {
         public IWebDriver driver;
+         WebDriverWait wait;
        public Utility(IWebDriver driver) 
         {
             this.driver = driver;
+            PageFactory.InitElements(driver, this);
+            wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
         }
-        public static void WaitForElementClickable(IWebElement element, int timeoutInSeconds , IWebDriver driver)
-        {
-            if (timeoutInSeconds > 0)
-            {
-                WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(timeoutInSeconds));
-                wait.Until(ExpectedConditions.ElementToBeClickable(element));
-            }
+        public  void WaitForElementClickable(By locator)        {
+            
+                wait.Until(ExpectedConditions.ElementIsVisible(locator));
+                wait.Until(ExpectedConditions.ElementToBeClickable(locator));
+                
         }
     }
 
     public class ActionScrollPage
     {
         public IWebDriver driver;
-
+        Actions action;
         public ActionScrollPage(IWebDriver driver)
         {
             this.driver = driver;
+            PageFactory.InitElements(driver, this);
+            action = new Actions(driver);
         }
 
-        public static void scrollPageDown(int count, IWebDriver driver)
+        public  void scrollPageDown(int count)
         {
-            Actions action = new Actions(driver);
+            
             for (int i = 0; i < count; i++)
             {
                 action.SendKeys(Keys.ArrowDown).Perform();
             }
         }
 
-        public static void scrollPageUp(int count, IWebDriver driver)
+        public  void scrollPageUp(int count)
         {
-            Actions action = new Actions(driver);
             for (int i = 0; i < count; i++)
             {
                 action.SendKeys(Keys.ArrowUp).Perform();
