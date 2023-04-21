@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "reAyLD2kPGFyAHITgobksopiaTIU0IxQMAWFL9th64rUFTIfPTUb5k3NDwff1R3a63V9/SRzMdDCPuiyw9BC6A==",
+  "dgSpecHash": "/f8sKn/xxXn2CQbl23zFtKtolglQO7G8R/3JDAYpaAZ69gt35ye81lrp8gxnxh50QY4GIy1MxqP6xuHRxWs8BA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Home\\Desktop\\C# learning\\Practice\\Practice\\CsharpBasic.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Home\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1001\\microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512"
+  ],
   "logs": []
 }

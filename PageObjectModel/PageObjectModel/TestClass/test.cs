@@ -7,12 +7,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using NUnit.Allure.Core;
 
 namespace PageObjectModel.TestClass
 {
 
-    // [Parallelizable(ParallelScope.All)]
+    //[Parallelizable(ParallelScope.All)]
     [TestFixture]
+    [AllureNUnit]
     public class test : BasePage
     {
         /**
@@ -30,10 +32,10 @@ namespace PageObjectModel.TestClass
             Thread.Sleep(2000);
              hp.viewSearchedItem(); 
         }
-        [Test,Order(0),Category("QauntityOfItem")]
         /**
-         * Adding the Item to cart and Setting up the Quanity of item 
-         */
+        * Adding the Item to cart and Setting up the Quanity of item 
+        */
+        [Test,Order(0),Category("QauntityOfItem")]
         public void verify_OrderTheAddToCartItem()
         {
             Homepage hp = new Homepage(driver);

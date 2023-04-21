@@ -78,7 +78,7 @@ namespace PageObjectModel.PageSource
 
         public void expandSearchDropDownBox(String var)
         {
-            utils.WaitForElementClickable(loc_searchDropDownBox);
+            Thread.Sleep(3000);
             searchDropDownBox.Click();
             SelectElement sel = new SelectElement(searchDropDownBox);
             sel.SelectByText(var);

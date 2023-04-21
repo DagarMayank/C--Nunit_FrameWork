@@ -39,10 +39,10 @@ namespace PageObjectModel.PageSource
         
         public void addItemToCart()
         {
-            
-            
+            Thread.Sleep(3000);
             utils.WaitForElementClickable(loc_btnAddtoCart);
             btnAddtoCart.Click();
+            Thread.Sleep(3000);
             Homepage hp = new Homepage(driver);
             hp.driver.SwitchTo().Window(driver.WindowHandles[0]);
             

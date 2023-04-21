@@ -52,9 +52,21 @@
               "target": "Package",
               "version": "[17.3.2, )"
             },
+            "Microsoft.Office.Interop.Excel": {
+              "target": "Package",
+              "version": "[15.0.4795.1001, )"
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.6.0, )"
+            },
             "NUnit": {
               "target": "Package",
               "version": "[3.13.3, )"
+            },
+            "NUnit.Allure": {
+              "target": "Package",
+              "version": "[1.0.14, )"
             },
             "NUnit.Analyzers": {
               "target": "Package",

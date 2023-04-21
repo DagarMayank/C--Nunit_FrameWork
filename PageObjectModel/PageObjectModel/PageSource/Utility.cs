@@ -14,7 +14,7 @@ namespace PageObjectModel.PageSource
         {
             this.driver = driver;
             PageFactory.InitElements(driver, this);
-            wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+            wait = new WebDriverWait(driver, TimeSpan.FromSeconds(20));
         }
         public  void WaitForElementClickable(By locator)        {
             
