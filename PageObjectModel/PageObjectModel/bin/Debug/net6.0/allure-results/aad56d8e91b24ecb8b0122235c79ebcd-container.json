@@ -1,0 +1,44 @@
+{
+  "uuid": "fb79e773-b3e4-4bb9-bf63-e1f1e5693935-tc-0-1000",
+  "name": "PageObjectModel.TestClass.test.verify_searchCateogoryDropdown",
+  "children": [
+    "3041e451-3e3f-4be6-93a6-239ae8478fec-tr-0-1003"
+  ],
+  "befores": [
+    {
+      "name": "invokeBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682313677202,
+      "stop": 1682313677202
+    }
+  ],
+  "afters": [
+    {
+      "name": "closeBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682313677202,
+      "stop": 1682313677202
+    }
+  ],
+  "links": [],
+  "start": 1682313668743,
+  "stop": 1682313677204
+}

@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using NUnit.Allure.Core;
+using NUnit.Allure.Attributes;
 
 namespace PageObjectModel.TestClass
 {
@@ -15,12 +16,14 @@ namespace PageObjectModel.TestClass
     //[Parallelizable(ParallelScope.All)]
     [TestFixture]
     [AllureNUnit]
+    [AllureSuite("Basic Functionality")]
+    [AllureFeature("Item Request")]
     public class test : BasePage
     {
-        /**
-         * Search Item In search Box and open the First Link of Project
-         */
-        [Test,Order(-1),Category("Search")]
+        
+        [Test(Description = "Search Item In search Box and open the First Link of Project")
+            ,Order(-1),Category("Search")]
+        [AllureStory("Searching Item and Opening in New Window")]
         public void verify_SearchFuncationality()
         {
             
@@ -32,10 +35,10 @@ namespace PageObjectModel.TestClass
             Thread.Sleep(2000);
              hp.viewSearchedItem(); 
         }
-        /**
-        * Adding the Item to cart and Setting up the Quanity of item 
-        */
-        [Test,Order(0),Category("QauntityOfItem")]
+        
+        [Test(Description = "Adding the Item to cart and Setting up the Quanity of item")
+            ,Order(0),Category("QauntityOfItem")]
+        [AllureStory("Changing the Qauntity")]
         public void verify_OrderTheAddToCartItem()
         {
             Homepage hp = new Homepage(driver);
@@ -49,11 +52,10 @@ namespace PageObjectModel.TestClass
             orderItem.navigateToCart();
             orderItem.setQuanity(2);
         }
-        /**
-         * Change the Search Category of item from dropdown aside of Search Bar. 
-         * Check for Mulitple Item
-         */
-        [Test,Order(0),Category("SearchDropDown")]
+       
+        [Test(Description = "Change the Search Category of item from dropdown aside of Search Bar.Check for Mulitple Item"),
+            Order(0),Category("SearchDropDown")]
+        [AllureStory("Searching Based On Category")]
         public void verify_searchCateogoryDropdown()
         {
            
@@ -62,12 +64,10 @@ namespace PageObjectModel.TestClass
             hp.expandSearchDropDownBox("Car & Motorbike");
 
         }
-        /**
-         * To Change the Language of the Application  
-         * i>  via Hovering over the Label  
-         * ii> via Clicking on the Language Icon changing from the Radio Button
-         */
-        [Test,Order(1),Category("LanguageChange")]
+       
+        [Test(Description = " To Change the Language of the Application "),
+            Order(1),Category("LanguageChange")]
+        [AllureStory("via Hovering over the Label, via Clicking on the Language Icon changing from the Radio Button ")]
         public void verify_LanguageChangeOfApplication()
         {
            

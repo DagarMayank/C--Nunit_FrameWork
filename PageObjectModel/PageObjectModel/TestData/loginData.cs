@@ -7,7 +7,7 @@ namespace PageObjectModel.TestData
 {
     class Program
     {
-       public static void Main1(String[] args)
+       public static void readData()
         {
             // Open the Excel file
             using (FileStream stream = new FileStream("C:\\Users\\Home\\Desktop\\C# learning\\PageObjectModel\\PageObjectModel\\TestData\\maqdoomAssigment.xlsx", FileMode.Open, FileAccess.Read))

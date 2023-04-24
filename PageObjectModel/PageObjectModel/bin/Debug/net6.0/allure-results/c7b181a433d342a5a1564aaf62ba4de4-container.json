@@ -1,0 +1,44 @@
+{
+  "uuid": "3a1edf88-eb3e-43e9-afe4-3095e1b6985a-tc-0-1000",
+  "name": "PageObjectModel.TestClass.test.verify_OrderTheAddToCartItem",
+  "children": [
+    "aaba3408-dff5-487d-8724-05add7fec47d-tr-0-1002"
+  ],
+  "befores": [
+    {
+      "name": "invokeBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682315660468,
+      "stop": 1682315660468
+    }
+  ],
+  "afters": [
+    {
+      "name": "closeBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682315660468,
+      "stop": 1682315660468
+    }
+  ],
+  "links": [],
+  "start": 1682315641021,
+  "stop": 1682315660473
+}

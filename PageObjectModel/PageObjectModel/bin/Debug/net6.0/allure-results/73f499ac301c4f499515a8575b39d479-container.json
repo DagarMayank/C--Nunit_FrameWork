@@ -1,0 +1,44 @@
+{
+  "uuid": "86ff227c-ea02-47d0-8d61-2f2639cda8f0-tc-0-1000",
+  "name": "PageObjectModel.TestClass.test.verify_LanguageChangeOfApplication",
+  "children": [
+    "7b0388e8-6b1a-43f1-bacf-a4e7242c488c-tr-0-1004"
+  ],
+  "befores": [
+    {
+      "name": "invokeBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682315687152,
+      "stop": 1682315687152
+    }
+  ],
+  "afters": [
+    {
+      "name": "closeBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682315687152,
+      "stop": 1682315687152
+    }
+  ],
+  "links": [],
+  "start": 1682315660477,
+  "stop": 1682315687156
+}

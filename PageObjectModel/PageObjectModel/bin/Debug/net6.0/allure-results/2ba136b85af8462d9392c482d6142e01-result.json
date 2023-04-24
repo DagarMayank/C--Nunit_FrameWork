@@ -1,0 +1,81 @@
+{
+  "uuid": "638fb51e-6860-4b7f-9bb5-5210de92b256-tr-0-1001",
+  "historyId": "PageObjectModel.TestClass.test.verify_SearchFuncationality",
+  "fullName": "PageObjectModel.TestClass.test.verify_SearchFuncationality",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-Q4R7LVV"
+    },
+    {
+      "name": "testClass",
+      "value": "PageObjectModel.TestClass.test"
+    },
+    {
+      "name": "testMethod",
+      "value": "verify_SearchFuncationality"
+    },
+    {
+      "name": "package",
+      "value": "PageObjectModel.TestClass.test"
+    },
+    {
+      "name": "tag",
+      "value": "Search"
+    },
+    {
+      "name": "story",
+      "value": "Searching Item and Opening in New Window"
+    },
+    {
+      "name": "suite",
+      "value": "Basic Functionality"
+    },
+    {
+      "name": "feature",
+      "value": "Item Request"
+    }
+  ],
+  "links": [],
+  "name": "verify_SearchFuncationality",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "verify_SearchFuncationality"
+  },
+  "stage": "finished",
+  "description": "Search Item In search Box and open the First Link of Project\n",
+  "steps": [
+    {
+      "name": "verify_SearchFuncationality",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e842356f797d4eae89b92835ef031c00-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1682315620068,
+      "stop": 1682315632521
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1682315620066,
+  "stop": 1682315632527
+}

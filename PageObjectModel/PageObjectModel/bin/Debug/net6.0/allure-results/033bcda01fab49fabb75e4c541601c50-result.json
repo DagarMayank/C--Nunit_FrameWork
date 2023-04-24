@@ -1,0 +1,84 @@
+{
+  "uuid": "aaba3408-dff5-487d-8724-05add7fec47d-tr-0-1002",
+  "historyId": "PageObjectModel.TestClass.test.verify_OrderTheAddToCartItem",
+  "fullName": "PageObjectModel.TestClass.test.verify_OrderTheAddToCartItem",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-Q4R7LVV"
+    },
+    {
+      "name": "testClass",
+      "value": "PageObjectModel.TestClass.test"
+    },
+    {
+      "name": "testMethod",
+      "value": "verify_OrderTheAddToCartItem"
+    },
+    {
+      "name": "package",
+      "value": "PageObjectModel.TestClass.test"
+    },
+    {
+      "name": "tag",
+      "value": "QauntityOfItem"
+    },
+    {
+      "name": "story",
+      "value": "Changing the Qauntity"
+    },
+    {
+      "name": "suite",
+      "value": "Basic Functionality"
+    },
+    {
+      "name": "feature",
+      "value": "Item Request"
+    }
+  ],
+  "links": [],
+  "name": "verify_OrderTheAddToCartItem",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <span class=\"a-button-text\" aria-hidden=\"true\" id=\"a-autoid-0-announce\">...</span> is not clickable at point (1194, 591). Other element would receive the click: <input type=\"submit\" name=\"submit.addToCart\" data-asins=\"[&quot;B0BZ479WZD&quot;]\" data-mix-operations=\"AddToCart\" data-numitems=\"1\" data-reftag=\"pd_cart_crc_cko_cart_atc_a_sccl_1\" data-url=\"/cart/add-to-cart/ref=pd_cart_crc_cko_cart_atc_a_sccl_1?_encoding=UTF8&amp;pd_rd_i=B0BZ479WZD&amp;pd_rd_w=v5Hfa&amp;content-id=amzn1.sym.ce3d4b64-ae0e-456b-aad7-75ac53ff6003&amp;pf_rd_p=ce3d4b64-ae0e-456b-aad7-75ac53ff6003&amp;pf_rd_r=C4Z21W9WAPRAMBN7YE2F&amp;pd_rd_wg=EwwCN&amp;pd_rd_r=28c7db80-13ea-46af-99b0-395eb6352a0a\" class=\"a-button-input\" aria-labelledby=\"a-autoid-0-announce\">\n  (Session info: chrome=107.0.5304.63)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Click()\r\n   at PageObjectModel.PageSource.OrderItem.setQuanity(Int32 x) in C:\\Users\\Home\\Desktop\\C# learning\\PageObjectModel\\PageObjectModel\\PageSource\\OrderItem.cs:line 59\r\n   at PageObjectModel.TestClass.test.verify_OrderTheAddToCartItem() in C:\\Users\\Home\\Desktop\\C# learning\\PageObjectModel\\PageObjectModel\\TestClass\\test.cs:line 53"
+  },
+  "stage": "finished",
+  "description": "Adding the Item to cart and Setting up the Quanity of item\n",
+  "steps": [
+    {
+      "name": "verify_OrderTheAddToCartItem",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <span class=\"a-button-text\" aria-hidden=\"true\" id=\"a-autoid-0-announce\">...</span> is not clickable at point (1194, 591). Other element would receive the click: <input type=\"submit\" name=\"submit.addToCart\" data-asins=\"[&quot;B0BZ479WZD&quot;]\" data-mix-operations=\"AddToCart\" data-numitems=\"1\" data-reftag=\"pd_cart_crc_cko_cart_atc_a_sccl_1\" data-url=\"/cart/add-to-cart/ref=pd_cart_crc_cko_cart_atc_a_sccl_1?_encoding=UTF8&amp;pd_rd_i=B0BZ479WZD&amp;pd_rd_w=v5Hfa&amp;content-id=amzn1.sym.ce3d4b64-ae0e-456b-aad7-75ac53ff6003&amp;pf_rd_p=ce3d4b64-ae0e-456b-aad7-75ac53ff6003&amp;pf_rd_r=C4Z21W9WAPRAMBN7YE2F&amp;pd_rd_wg=EwwCN&amp;pd_rd_r=28c7db80-13ea-46af-99b0-395eb6352a0a\" class=\"a-button-input\" aria-labelledby=\"a-autoid-0-announce\">\n  (Session info: chrome=107.0.5304.63)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Click()\r\n   at PageObjectModel.PageSource.OrderItem.setQuanity(Int32 x) in C:\\Users\\Home\\Desktop\\C# learning\\PageObjectModel\\PageObjectModel\\PageSource\\OrderItem.cs:line 59\r\n   at PageObjectModel.TestClass.test.verify_OrderTheAddToCartItem() in C:\\Users\\Home\\Desktop\\C# learning\\PageObjectModel\\PageObjectModel\\TestClass\\test.cs:line 53"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "12f7af4f65e44caab0f9d5ce24268a5c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1682315641021,
+      "stop": 1682315660472
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1682315641021,
+  "stop": 1682315660472
+}

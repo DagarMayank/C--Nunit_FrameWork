@@ -1,0 +1,68 @@
+{
+  "uuid": "0cf5034a-78cd-436f-a715-d88f8a969b5e-tr-0-1004",
+  "historyId": "PageObjectModel.TestClass.test.verify_LanguageChangeOfApplication",
+  "fullName": "PageObjectModel.TestClass.test.verify_LanguageChangeOfApplication",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-Q4R7LVV"
+    },
+    {
+      "name": "testClass",
+      "value": "PageObjectModel.TestClass.test"
+    },
+    {
+      "name": "testMethod",
+      "value": "verify_LanguageChangeOfApplication"
+    },
+    {
+      "name": "package",
+      "value": "PageObjectModel.TestClass.test"
+    },
+    {
+      "name": "tag",
+      "value": "LanguageChange"
+    }
+  ],
+  "links": [],
+  "name": "verify_LanguageChangeOfApplication",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "verify_LanguageChangeOfApplication"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "verify_LanguageChangeOfApplication",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "7721cbcff1b14c1d9a2a0eecdc1defd3-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1682313700872,
+      "stop": 1682313727838
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1682313700872,
+  "stop": 1682313727838
+}

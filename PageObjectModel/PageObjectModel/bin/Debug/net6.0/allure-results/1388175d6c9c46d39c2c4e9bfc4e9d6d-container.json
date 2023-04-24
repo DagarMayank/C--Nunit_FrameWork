@@ -1,0 +1,44 @@
+{
+  "uuid": "4bd044e7-d222-48a8-97ec-2ca8f01ccd75-tc-0-1000",
+  "name": "PageObjectModel.TestClass.test.verify_SearchFuncationality",
+  "children": [
+    "d925071c-2636-4c29-9f72-26d3356d06af-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "invokeBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682313668694,
+      "stop": 1682313668694
+    }
+  ],
+  "afters": [
+    {
+      "name": "closeBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682313668694,
+      "stop": 1682313668694
+    }
+  ],
+  "links": [],
+  "start": 1682313657268,
+  "stop": 1682313668731
+}
