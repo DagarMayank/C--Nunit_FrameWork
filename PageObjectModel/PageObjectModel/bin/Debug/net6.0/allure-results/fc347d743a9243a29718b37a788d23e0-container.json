@@ -1,0 +1,44 @@
+{
+  "uuid": "fee2f950-ed0f-4efb-8653-65e010435976-tc-0-1000",
+  "name": "PageObjectModel.TestClass.test.verify_OrderTheAddToCartItem(\"Iphone 12\")",
+  "children": [
+    "dbedd6d5-e610-4379-9096-75b05d02ee0f-tr-0-1005"
+  ],
+  "befores": [
+    {
+      "name": "invokeBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682485494439,
+      "stop": 1682485494439
+    }
+  ],
+  "afters": [
+    {
+      "name": "closeBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682485494440,
+      "stop": 1682485494440
+    }
+  ],
+  "links": [],
+  "start": 1682485473327,
+  "stop": 1682485494480
+}

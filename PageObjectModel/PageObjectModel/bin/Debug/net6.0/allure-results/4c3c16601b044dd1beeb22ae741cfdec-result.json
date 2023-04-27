@@ -1,0 +1,90 @@
+{
+  "uuid": "cc51fa9d-98e3-4f36-ad7b-a4b4145a80c0-tr-0-1009",
+  "historyId": "PageObjectModel.TestClass.test.verify_searchCateogoryDropdown(\"Amazon Fresh\")",
+  "fullName": "PageObjectModel.TestClass.test.verify_searchCateogoryDropdown(\"Amazon Fresh\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-Q4R7LVV"
+    },
+    {
+      "name": "testClass",
+      "value": "PageObjectModel.TestClass.test"
+    },
+    {
+      "name": "testMethod",
+      "value": "verify_searchCateogoryDropdown"
+    },
+    {
+      "name": "package",
+      "value": "PageObjectModel.TestClass.test"
+    },
+    {
+      "name": "tag",
+      "value": "SearchDropDown"
+    },
+    {
+      "name": "story",
+      "value": "Searching Based On Category"
+    },
+    {
+      "name": "tag",
+      "value": "SanityTestCase"
+    },
+    {
+      "name": "suite",
+      "value": "Basic Functionality"
+    },
+    {
+      "name": "feature",
+      "value": "Item Request"
+    }
+  ],
+  "links": [],
+  "name": "verify_searchCateogoryDropdown(\"Amazon Fresh\")",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "verify_searchCateogoryDropdown(\"Amazon Fresh\")"
+  },
+  "stage": "finished",
+  "description": "Change the Search Category of item from dropdown aside of Search Bar.Check for Mulitple Item\n",
+  "steps": [
+    {
+      "name": "verify_searchCateogoryDropdown(\"Amazon Fresh\")",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "659f472e3172474bbd60eb8f715f5e1a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1682485137399,
+      "stop": 1682485145945
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "Amazon Fresh"
+    }
+  ],
+  "start": 1682485137399,
+  "stop": 1682485145946
+}

@@ -7,10 +7,15 @@ namespace PageObjectModel.TestData
 {
     class Program
     {
+        public static void main(String[] args)
+        {
+            Program p = new Program();
+            readData();
+        } 
        public static void readData()
         {
             // Open the Excel file
-            using (FileStream stream = new FileStream("C:\\Users\\Home\\Desktop\\C# learning\\PageObjectModel\\PageObjectModel\\TestData\\maqdoomAssigment.xlsx", FileMode.Open, FileAccess.Read))
+            using (FileStream stream = new FileStream(@"C:\Users\Home\Desktop\C# learning\PageObjectModel\PageObjectModel\TestData\maqdoomAssigment.xlsx", FileMode.Open, FileAccess.Read))
             {
                 // Create an instance of the Workbook class
                 IWorkbook workbook = WorkbookFactory.Create(stream);

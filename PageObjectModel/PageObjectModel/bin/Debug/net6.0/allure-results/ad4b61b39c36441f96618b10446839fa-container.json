@@ -1,0 +1,44 @@
+{
+  "uuid": "c9c48df3-6793-4d15-9682-0fcc89c3b90a-tc-0-1000",
+  "name": "PageObjectModel.TestClass.test.verify_SearchFuncationality(\"Car Accessories\")",
+  "children": [
+    "264a4065-e90b-4417-ba87-b2fec3e75640-tr-0-1003"
+  ],
+  "befores": [
+    {
+      "name": "invokeBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682485119684,
+      "stop": 1682485119684
+    }
+  ],
+  "afters": [
+    {
+      "name": "closeBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682485119684,
+      "stop": 1682485119684
+    }
+  ],
+  "links": [],
+  "start": 1682485108326,
+  "stop": 1682485119687
+}

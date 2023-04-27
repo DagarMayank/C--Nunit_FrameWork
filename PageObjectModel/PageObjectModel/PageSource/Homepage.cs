@@ -59,10 +59,10 @@ namespace PageObjectModel.PageSource
             utils.WaitForElementClickable(loc_iconAvatar);
             return iconAvatar.Displayed;
         }
-        public void searchBar()
+        public void searchBar(String item)
         {
              ac = new Actions(driver);
-            ac.MoveToElement(txtsearchBar).Click().SendKeys("Iphone 12" + Keys.Enter).Build().Perform();
+            ac.MoveToElement(txtsearchBar).Click().SendKeys(item + Keys.Enter).Build().Perform();
         }
 
         public void viewSearchedItem()

@@ -1,0 +1,44 @@
+{
+  "uuid": "8541caf8-4c6f-4bad-816a-d1436bd66274-tc-0-1000",
+  "name": "PageObjectModel.TestClass.test.verify_LanguageChangeOfApplication(\"हिन्दी\",\"English\")",
+  "children": [
+    "bc900084-4134-418f-a4ff-e0f944ab3bed-tr-0-1011"
+  ],
+  "befores": [
+    {
+      "name": "invokeBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682485196708,
+      "stop": 1682485196708
+    }
+  ],
+  "afters": [
+    {
+      "name": "closeBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682485196708,
+      "stop": 1682485196708
+    }
+  ],
+  "links": [],
+  "start": 1682485168660,
+  "stop": 1682485196711
+}

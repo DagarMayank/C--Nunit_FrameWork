@@ -1,0 +1,44 @@
+{
+  "uuid": "4d947dba-6117-49e1-9850-b02b77da2671-tc-0-1000",
+  "name": "PageObjectModel.TestClass.test.verify_SearchFuncationality(\"Panasonic AC\")",
+  "children": [
+    "343a7b09-5d03-401d-bb9a-c63dc505bf40-tr-0-1002"
+  ],
+  "befores": [
+    {
+      "name": "invokeBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682485108312,
+      "stop": 1682485108312
+    }
+  ],
+  "afters": [
+    {
+      "name": "closeBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682485108312,
+      "stop": 1682485108312
+    }
+  ],
+  "links": [],
+  "start": 1682485096907,
+  "stop": 1682485108315
+}

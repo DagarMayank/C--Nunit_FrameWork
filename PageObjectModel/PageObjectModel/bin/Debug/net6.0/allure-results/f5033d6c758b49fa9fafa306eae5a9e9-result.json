@@ -1,0 +1,90 @@
+{
+  "uuid": "64163bb6-c2e0-44af-b6f2-015b2b69c92b-tr-0-1005",
+  "historyId": "PageObjectModel.TestClass.test.verify_OrderTheAddToCartItem(\"Iphone 12\")",
+  "fullName": "PageObjectModel.TestClass.test.verify_OrderTheAddToCartItem(\"Iphone 12\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-Q4R7LVV"
+    },
+    {
+      "name": "testClass",
+      "value": "PageObjectModel.TestClass.test"
+    },
+    {
+      "name": "testMethod",
+      "value": "verify_OrderTheAddToCartItem"
+    },
+    {
+      "name": "package",
+      "value": "PageObjectModel.TestClass.test"
+    },
+    {
+      "name": "tag",
+      "value": "QauntityOfItem"
+    },
+    {
+      "name": "story",
+      "value": "Changing the Qauntity"
+    },
+    {
+      "name": "tag",
+      "value": "SmokeTestCase"
+    },
+    {
+      "name": "suite",
+      "value": "Basic Functionality"
+    },
+    {
+      "name": "feature",
+      "value": "Item Request"
+    }
+  ],
+  "links": [],
+  "name": "verify_OrderTheAddToCartItem(\"Iphone 12\")",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "verify_OrderTheAddToCartItem(\"Iphone 12\")"
+  },
+  "stage": "finished",
+  "description": "Adding the Item to cart and Setting up the Quanity of item\n",
+  "steps": [
+    {
+      "name": "verify_OrderTheAddToCartItem(\"Iphone 12\")",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "b96788c28dc04c5f8df1f3a5b2cedbdf-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1682485599797,
+      "stop": 1682485628068
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "Iphone 12"
+    }
+  ],
+  "start": 1682485599796,
+  "stop": 1682485628075
+}

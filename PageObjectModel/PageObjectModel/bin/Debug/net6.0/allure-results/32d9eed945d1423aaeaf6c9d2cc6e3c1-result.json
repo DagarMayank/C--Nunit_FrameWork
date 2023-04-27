@@ -1,0 +1,94 @@
+{
+  "uuid": "264a4065-e90b-4417-ba87-b2fec3e75640-tr-0-1003",
+  "historyId": "PageObjectModel.TestClass.test.verify_SearchFuncationality(\"Car Accessories\")",
+  "fullName": "PageObjectModel.TestClass.test.verify_SearchFuncationality(\"Car Accessories\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-Q4R7LVV"
+    },
+    {
+      "name": "testClass",
+      "value": "PageObjectModel.TestClass.test"
+    },
+    {
+      "name": "testMethod",
+      "value": "verify_SearchFuncationality"
+    },
+    {
+      "name": "package",
+      "value": "PageObjectModel.TestClass.test"
+    },
+    {
+      "name": "tag",
+      "value": "Search"
+    },
+    {
+      "name": "story",
+      "value": "Searching Item and Opening in New Window"
+    },
+    {
+      "name": "tag",
+      "value": "SmokeTestCase"
+    },
+    {
+      "name": "subSuite",
+      "value": "Searchitem"
+    },
+    {
+      "name": "suite",
+      "value": "Basic Functionality"
+    },
+    {
+      "name": "feature",
+      "value": "Item Request"
+    }
+  ],
+  "links": [],
+  "name": "verify_SearchFuncationality(\"Car Accessories\")",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "verify_SearchFuncationality(\"Car Accessories\")"
+  },
+  "stage": "finished",
+  "description": "Search Item In search Box and open the First Link of Project\n",
+  "steps": [
+    {
+      "name": "verify_SearchFuncationality(\"Car Accessories\")",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "18458cf9db4f4ca693684b64fa9ba1cb-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1682485108326,
+      "stop": 1682485119685
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "Car Accessories"
+    }
+  ],
+  "start": 1682485108326,
+  "stop": 1682485119685
+}

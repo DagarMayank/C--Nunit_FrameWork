@@ -1,0 +1,44 @@
+{
+  "uuid": "4e43e7ab-2b0c-4e87-bccd-01022e5a9fd8-tc-0-1000",
+  "name": "PageObjectModel.TestClass.test.verify_SearchFuncationality(\"Iphone 12\")",
+  "children": [
+    "abcaa9c0-e710-4945-bd64-ccd258d10399-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "invokeBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682485096860,
+      "stop": 1682485096860
+    }
+  ],
+  "afters": [
+    {
+      "name": "closeBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682485096861,
+      "stop": 1682485096861
+    }
+  ],
+  "links": [],
+  "start": 1682485085407,
+  "stop": 1682485096894
+}

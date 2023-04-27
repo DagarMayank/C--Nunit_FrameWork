@@ -1,0 +1,44 @@
+{
+  "uuid": "710f7770-2056-4de7-966f-d3762e4a84d9-tc-0-1000",
+  "name": "PageObjectModel.TestClass.test.verify_searchCateogoryDropdown(\"Books\")",
+  "children": [
+    "c2c82d9d-443a-4c49-b2d5-344871bffec8-tr-0-1007"
+  ],
+  "befores": [
+    {
+      "name": "invokeBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682485128735,
+      "stop": 1682485128735
+    }
+  ],
+  "afters": [
+    {
+      "name": "closeBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682485128736,
+      "stop": 1682485128736
+    }
+  ],
+  "links": [],
+  "start": 1682485119699,
+  "stop": 1682485128739
+}

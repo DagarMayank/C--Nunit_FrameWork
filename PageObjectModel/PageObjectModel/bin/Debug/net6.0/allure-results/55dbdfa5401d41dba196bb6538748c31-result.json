@@ -1,0 +1,93 @@
+{
+  "uuid": "b5ca3af6-1ce5-4298-b7ee-1e6b087914e3-tr-0-1005",
+  "historyId": "PageObjectModel.TestClass.test.verify_OrderTheAddToCartItem(\"Iphone 12\")",
+  "fullName": "PageObjectModel.TestClass.test.verify_OrderTheAddToCartItem(\"Iphone 12\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-Q4R7LVV"
+    },
+    {
+      "name": "testClass",
+      "value": "PageObjectModel.TestClass.test"
+    },
+    {
+      "name": "testMethod",
+      "value": "verify_OrderTheAddToCartItem"
+    },
+    {
+      "name": "package",
+      "value": "PageObjectModel.TestClass.test"
+    },
+    {
+      "name": "tag",
+      "value": "QauntityOfItem"
+    },
+    {
+      "name": "story",
+      "value": "Changing the Qauntity"
+    },
+    {
+      "name": "tag",
+      "value": "SmokeTestCase"
+    },
+    {
+      "name": "suite",
+      "value": "Basic Functionality"
+    },
+    {
+      "name": "feature",
+      "value": "Item Request"
+    }
+  ],
+  "links": [],
+  "name": "verify_OrderTheAddToCartItem(\"Iphone 12\")",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: twotabsearchtextbox",
+    "trace": "   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()\r\n   at OpenQA.Selenium.Interactions.PointerInputDevice.PointerMoveInteraction.ConvertElement()\r\n   at OpenQA.Selenium.Interactions.PointerInputDevice.PointerMoveInteraction.ToDictionary()\r\n   at OpenQA.Selenium.Interactions.ActionSequence.ToDictionary()\r\n   at OpenQA.Selenium.WebDriver.PerformActions(IList`1 actionSequenceList)\r\n   at OpenQA.Selenium.Interactions.Actions.Perform()\r\n   at PageObjectModel.PageSource.Homepage.searchBar(String item) in C:\\Users\\Home\\Desktop\\C# learning\\PageObjectModel\\PageObjectModel\\PageSource\\Homepage.cs:line 65\r\n   at PageObjectModel.TestClass.test.verify_OrderTheAddToCartItem(String item) in C:\\Users\\Home\\Desktop\\C# learning\\PageObjectModel\\PageObjectModel\\TestClass\\test.cs:line 52"
+  },
+  "stage": "finished",
+  "description": "Adding the Item to cart and Setting up the Quanity of item\n",
+  "steps": [
+    {
+      "name": "verify_OrderTheAddToCartItem(\"Iphone 12\")",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: twotabsearchtextbox",
+        "trace": "   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()\r\n   at OpenQA.Selenium.Interactions.PointerInputDevice.PointerMoveInteraction.ConvertElement()\r\n   at OpenQA.Selenium.Interactions.PointerInputDevice.PointerMoveInteraction.ToDictionary()\r\n   at OpenQA.Selenium.Interactions.ActionSequence.ToDictionary()\r\n   at OpenQA.Selenium.WebDriver.PerformActions(IList`1 actionSequenceList)\r\n   at OpenQA.Selenium.Interactions.Actions.Perform()\r\n   at PageObjectModel.PageSource.Homepage.searchBar(String item) in C:\\Users\\Home\\Desktop\\C# learning\\PageObjectModel\\PageObjectModel\\PageSource\\Homepage.cs:line 65\r\n   at PageObjectModel.TestClass.test.verify_OrderTheAddToCartItem(String item) in C:\\Users\\Home\\Desktop\\C# learning\\PageObjectModel\\PageObjectModel\\TestClass\\test.cs:line 52"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "9f159a82e2a147cc84ee75de303d9ed1-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1682485553737,
+      "stop": 1682485571243
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "Iphone 12"
+    }
+  ],
+  "start": 1682485553736,
+  "stop": 1682485571250
+}

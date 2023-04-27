@@ -1,0 +1,44 @@
+{
+  "uuid": "f4e48722-f9c6-45ed-a54d-3ebea91b5174-tc-0-1000",
+  "name": "PageObjectModel.TestClass.test.verify_searchCateogoryDropdown(\"Amazon Fresh\")",
+  "children": [
+    "cc51fa9d-98e3-4f36-ad7b-a4b4145a80c0-tr-0-1009"
+  ],
+  "befores": [
+    {
+      "name": "invokeBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682485145945,
+      "stop": 1682485145945
+    }
+  ],
+  "afters": [
+    {
+      "name": "closeBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682485145945,
+      "stop": 1682485145945
+    }
+  ],
+  "links": [],
+  "start": 1682485137399,
+  "stop": 1682485145947
+}

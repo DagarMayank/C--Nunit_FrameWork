@@ -24,14 +24,19 @@ namespace PageObjectModel.TestClass
         [Test(Description = "Search Item In search Box and open the First Link of Project")
             ,Order(-1),Category("Search")]
         [AllureStory("Searching Item and Opening in New Window")]
-        public void verify_SearchFuncationality()
+        [AllureTag("SmokeTestCase")]
+        [AllureSubSuite("Searchitem")]
+        [TestCase("Iphone 12")]
+        [TestCase("Panasonic AC")]
+        [TestCase("Car Accessories")]
+        public void verify_SearchFuncationality(String item)
         {
             
             //Navigated to Homepage
             Homepage hp = new Homepage(driver);
          /***Login Functionality is Commented Out because of Restriction from Amazon **/
             //   Assert.IsTrue(hp.IsIconAvatorVisible(),"User is Successfully logined to the Application");
-            hp.searchBar();
+            hp.searchBar(item);
             Thread.Sleep(2000);
              hp.viewSearchedItem(); 
         }
@@ -39,10 +44,12 @@ namespace PageObjectModel.TestClass
         [Test(Description = "Adding the Item to cart and Setting up the Quanity of item")
             ,Order(0),Category("QauntityOfItem")]
         [AllureStory("Changing the Qauntity")]
-        public void verify_OrderTheAddToCartItem()
+        [AllureTag("SmokeTestCase")]
+        [TestCase("Iphone 12")]
+        public void verify_OrderTheAddToCartItem(String item)
         {
             Homepage hp = new Homepage(driver);
-            hp.searchBar();
+            hp.searchBar(item);
             hp.viewSearchedItem();
             OrderItem orderItem = new OrderItem(driver);
             orderItem.addItemToCart();
@@ -50,33 +57,43 @@ namespace PageObjectModel.TestClass
             ActionScrollPage actionScrollPage = new ActionScrollPage(driver);
             actionScrollPage.scrollPageUp(8);
             orderItem.navigateToCart();
-            orderItem.setQuanity(2);
+            Random random = new Random();
+            int value = random.Next(1, 9);
+            Console.WriteLine("Random value is "+value);
+            orderItem.setQuanity(value);
+            Thread.Sleep(7000);
         }
        
         [Test(Description = "Change the Search Category of item from dropdown aside of Search Bar.Check for Mulitple Item"),
-            Order(0),Category("SearchDropDown")]
+            Order(0),Category("SearchDropDown")]        
         [AllureStory("Searching Based On Category")]
-        public void verify_searchCateogoryDropdown()
+        [AllureTag("SanityTestCase")]
+        [TestCase("Books")]
+        [TestCase("Beauty")]
+        [TestCase("Amazon Fresh")]
+        public void verify_searchCateogoryDropdown(String category)
         {
            
             //Navigated to Homepage
             Homepage hp = new Homepage(driver);
-            hp.expandSearchDropDownBox("Car & Motorbike");
+            hp.expandSearchDropDownBox(category);
 
         }
        
         [Test(Description = " To Change the Language of the Application "),
             Order(1),Category("LanguageChange")]
         [AllureStory("via Hovering over the Label, via Clicking on the Language Icon changing from the Radio Button ")]
-        public void verify_LanguageChangeOfApplication()
+        [AllureTag("SmokeTestCase")]
+        [TestCase("हिन्दी", "English")]
+        public void verify_LanguageChangeOfApplication(String lang1, String lang2)
         {
            
             //Navigated to Homepage
             Homepage hp = new Homepage(driver);
             hp.hoverOnLanguageIcon();
-            hp.chooseLanguageFromHoveredIcon("हिन्दी");
+            hp.chooseLanguageFromHoveredIcon(lang1);
             hp.hoverOnLanguageIcon();
-            hp.chooseLanguageFromHoveredIcon("English");
+            hp.chooseLanguageFromHoveredIcon(lang2);
 
         }
     }

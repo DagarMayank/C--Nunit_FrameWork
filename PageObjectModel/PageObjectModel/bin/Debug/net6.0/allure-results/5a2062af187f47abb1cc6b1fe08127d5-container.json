@@ -1,0 +1,44 @@
+{
+  "uuid": "c02a5298-69b8-4ca6-b176-09e9e8f0a836-tc-0-1000",
+  "name": "PageObjectModel.TestClass.test.verify_searchCateogoryDropdown(\"Beauty\")",
+  "children": [
+    "16f48942-1fee-4a77-a24b-ef9408c1a5cd-tr-0-1008"
+  ],
+  "befores": [
+    {
+      "name": "invokeBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682485137394,
+      "stop": 1682485137394
+    }
+  ],
+  "afters": [
+    {
+      "name": "closeBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682485137394,
+      "stop": 1682485137394
+    }
+  ],
+  "links": [],
+  "start": 1682485128741,
+  "stop": 1682485137396
+}
